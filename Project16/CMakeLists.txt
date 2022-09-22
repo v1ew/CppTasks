@@ -3,4 +3,8 @@ project(Project16)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Project16 main.cpp)
+add_executable(
+        Project16
+        main.cpp
+        speedometer.cpp
+        fractionals.cpp calc.cpp piano.cpp home.cpp)
