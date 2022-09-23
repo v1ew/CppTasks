@@ -39,7 +39,7 @@ void run(int choice) {
             speedometer();
             break;
         case 2:
-            fractionals();
+            fractional();
             break;
         case 3:
             calculator();

@@ -7,4 +7,4 @@ add_executable(
         Project16
         main.cpp
         speedometer.cpp
-        fractionals.cpp calc.cpp piano.cpp home.cpp)
+        fractional.cpp calc.cpp piano.cpp home.cpp)

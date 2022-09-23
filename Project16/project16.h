@@ -2,7 +2,7 @@
 #define PROJECT16_H
 
 void speedometer();
-void fractionals();
+void fractional();
 void calculator();
 void piano();
 void smart_home();
