@@ -4,7 +4,7 @@
 int show_menu() {
     int choice = -1;
 
-    std::string lines[] = {
+    std::string items[] = {
             "Speedometer",
             "A stapler of fractional numbers",
             "Calculator",
@@ -13,9 +13,9 @@ int show_menu() {
             "Exit"
     };
 
-    int lines_count = sizeof lines / sizeof lines[0];
-    for (int i = 0; i < lines_count; ++i) {
-        std::cout << i + 1 << ". " << lines[i] << std::endl;
+    int items_count = sizeof items / sizeof items[0];
+    for (int i = 0; i < items_count; ++i) {
+        std::cout << i + 1 << ". " << items[i] << std::endl;
     }
     bool replay = false;
     do {
@@ -25,9 +25,9 @@ int show_menu() {
         std::cin >> choice;
         std::cout << std::endl;
         replay = true;
-    } while (choice < 1 || choice > lines_count);
+    } while (choice < 1 || choice > items_count);
 
-    if (choice > 0 && choice < lines_count)
+    if (choice > 0 && choice < items_count)
         return choice;
     else
         return 0;
