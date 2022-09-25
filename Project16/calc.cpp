@@ -21,7 +21,7 @@ void calculator() {
     buffer_stream >> op1;
     while (!buffer_stream.eof()) {
         buffer_stream >> operation >> op2;
-        switch (operation) {
+        switch (operation) { // Operations priority don't observed
             case '+':
                 op1 += op2;
                 break;
