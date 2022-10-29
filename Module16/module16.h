@@ -1,5 +1,5 @@
-#ifndef PROJECT16_H
-#define PROJECT16_H
+#ifndef MODULE16_H
+#define MODULE16_H
 
 void speedometer();
 void fractional();

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="CppTasks" Database="" Version="10000">
+  <Project Name="Module17" Path="Module17/Module17.project" Active="Yes"/>
+  <Project Name="Module16" Path="Module16/Module16.project" Active="No"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug">
+      <Environment/>
+      <Project Name="Module17" ConfigName="Debug"/>
+      <Project Name="Module16" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release">
+      <Environment/>
+      <Project Name="Module17" ConfigName="Release"/>
+      <Project Name="Module16" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>

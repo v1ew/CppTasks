@@ -23,7 +23,7 @@ void piano() {
     for (int i = 0; i < NUM_SOUNDS; ++i) {
         std::cin >> input;
         melody[i] = 0;
-        for (int j = 0; j < input.length(); ++j) {
+        for (uint j = 0; j < input.length(); ++j) {
             if (std::isdigit(input[j]) && input[j] - '0' < 8 && input[j] - '0' > 0) {
                 melody[i] |= 1 << (input[j] - '0' - 1);
             } else {
